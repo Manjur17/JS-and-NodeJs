@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post">
+        <div>
+            <label for="name">Name*</label>
+            <input type="text" name="name" id="name" placeholder="Name" required>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+        </div>
+
+        <div>
+            <label for="gender">Gender &nbsp; </label>
+            <input type="radio" name="gender" id="gender_m" required>Male
+            <input type="radio" name="gender" id="gender_f" required>Female
+            <input type="radio" name="gender" id=" # gender_o" required>Other
+        </div>
+
+        <div>
+            <label for="cars">Car Brands</label>
+            <select name="cars" id="cars" required>
+                <option value="">--Please choose an option--</option>
+                <option value="BMW">BMW</option>
+                <option value="Audi">Audi</option>
+                <option value="Mercedez">Mercedez</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="carage">Car Age</label>
+            <input type="number" name="carage" id="carage" required>
+        </div>
+        
+        <div>
+            <label for="dop">Date of Purchase</label>
+            <input type="date" name="dop" id="dop" required>
+        </div>
+
+        
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+        </div>
+
+        <button type="submit">Submit</button>
+        
+    </form>
+</body>
+
+</html>
